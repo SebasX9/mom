@@ -1,0 +1,37 @@
+
+<html>
+	<head>
+		<title>expreso s</title>
+		<meta charset="UTF-8" />
+	
+
+	</head>
+	<body>
+		
+		<h1>Guardar Datos</h1>
+
+		<form action="recoger2.php" method="post">
+			<input type="text" name="nombre" size="20" placeholder="Ecriba su nombre" /><br/>
+			<input type="number" name="Edad" min="10" max="75" placeholder="Edad" /><br/>
+			<input type="date" name="Fecha" placeholder="Fecha" /><br/>
+			<label for="VIP">Es usted un cliente vip ?</label><br/>
+			<input type="radio" name="VIP" value="si">Si<br/>
+			<input type="radio" name="VIP" value="no">No<br/>
+			<select name="Provincia">
+				<option>colombia</option>
+				<option>Estados Unidos</option>
+				<option>Brazil</option>
+				<option>España</option>
+			</select>
+			<input type="submit" value="Guardar!!" />
+		</form>
+		<br>
+	<a href="busqueda.php">Consultar</a>
+    <br>
+    <br>
+    <a href="eliminar2.php">Eliminar</a>
+    <br>
+    <br>
+    <a href="actualizar4.php">Actualizar</a>
+	</body>
+</html>
